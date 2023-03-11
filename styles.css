@@ -51,7 +51,7 @@ header > p {
 
 .card {
   font-weight: 500;
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 2rem;
   background-color: var(--clr-neutral-300);
   min-width: 18rem;
@@ -61,6 +61,7 @@ header > p {
   align-items: center;
   justify-content: center;
 }
+
 
 .float {
   position: absolute;
