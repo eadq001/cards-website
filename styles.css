@@ -46,6 +46,7 @@ header > p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
+  
 }
 
 .card {
@@ -55,26 +56,25 @@ header > p {
   background-color: var(--clr-neutral-300);
   min-width: 18rem;
   text-align: center;
-}
-
-.description {
-  margin: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .float {
-  position: relative;
+  position: absolute;
   z-index: 1;
-  top: 0;
-  max-width: 10rem;
+  top: -1rem;
   margin: 0 auto;
-  padding: 5px 10px;
+  padding: 0.5rem 2.5rem;
   color: white;
   text-transform: uppercase;
   font-weight: 900;
-  transform: translateY(-2.7rem);
   background-color: var(--clr-green);
-  text-align: center;
-  border-radius: 1rem;
+  border-radius: 2rem;
+
+
 }
 
 .bg-purple {
